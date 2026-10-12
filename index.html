@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>My feedback form</h1>
+<form>
+<ul>
+    <li>
+        <label for="name">Name:</label>
+    <input type="text" id="name">
+    </li>
+</ul>
+<ul>
+    <li>
+        <label for="email">Email:</label>
+        <input type="email" id="Email:">
+    </li>
+</ul>
+<ul>
+    <li>
+        <label for="password">Password:</label>
+        <input type="password" id="Password:">
+    </li>
+</ul>
+
+<p>Please check all the emotions that apply to you:</p>
+<ul>
+    <li>
+        <label> Angry
+            <input type="checkbox" name="emotions"value="angry" checked>  
+        </label>
+    </li>
+</ul>
+<ul>
+    <li>
+        <label> Sad
+            <input type="checkbox" name="emotions" value="Sad">
+        </label>
+        
+    </li>
+</ul>
+<ul>
+    <li>
+        <label> Happy
+            <input type="checkbox" name="emotions" value="happy">
+        </label> 
+    </li>
+</ul>
+<ul>
+    <li>
+        <label> Ambivalent
+            <input type="checkbox" name="emotions" value="Ambivalent">
+
+        </label>
+    </li>
+</ul>
+<p>How satisfied were you with our service?</p>
+<ul>
+    <li>
+        <label> Very satisfied
+            <input type="radio" name="satisfaction" value="very-satisfied" checked>
+        </label>
+    </li>
+    <li>
+        <label> Satisfied
+            <input type="radio" name="satisfaction" value="satisfied">
+        </label>
+    </li>
+    <li>
+        <label> Didn't care
+            <input type="radio" name="satisfaction" value="didnt-care">
+        </label>
+    </li>
+    <li>
+        <label> Dissatisfied
+            <input type="radio" name="satisfaction" value="dissatisfied">
+        </label>
+    </li>
+    <li>
+        <label>Very dissatisfied
+            <input type="radio" name="satisfaction" value="very-dissatisfied">
+        </label>
+    </li>
+<ul> 
+<p>Further comments:</p>
+<textarea name="comments"id="Further-comments"></textarea><br>
+<label for="bio-photo">Bio photo:</label>
+<input type="file" id="bio-photo" name="bio-photo">
+<p>Location visited:</p>
+<select name="Location" id="Location">
+    <option value="" selected disabled>selected location</option>
+    <option value="argentina">Argentina</option>
+    <option value="brasil"> Brasil</option>
+    <option value="uruguay">Uruguay</option>
+    <option value="chile">Chile</option>
+</select>
+    
+
+
+<button type="submit">Submit</button>
+
+
+</form>
+</body>
+</html>
